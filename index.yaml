@@ -17,7 +17,7 @@ distributions:
     distribution_cache: http://repo.ros2.org/rosdistro_cache/dashing-cache.yaml.gz
   eloquent:
     distribution: [eloquent/distribution.yaml]
-    distribution_cache: http://repo.ros2.org/rosdistro_cache/eloquent-cache.yaml.gz
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/eloquent-cache.yaml.gz
   foxy:
     distribution: [foxy/distribution.yaml]
     distribution_cache: http://repo.ros2.org/rosdistro_cache/foxy-cache.yaml.gz
