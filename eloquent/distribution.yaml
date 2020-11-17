@@ -895,11 +895,11 @@ repositories:
       - gtest_vendor
       tags:
         release: release/eloquent/{package}/{version}
-      url: https://github.com/ros2-gbp-rpm/googletest-release.git
+      url: https://github.com/ros-staging/googletest-release.git
       version: 1.8.9000-1
     source:
       type: git
-      url: https://github.com/ament/googletest.git
+      url: https://github.com/ros-staging/googletest.git
       version: ros2
     status: maintained
   gps_umd:
