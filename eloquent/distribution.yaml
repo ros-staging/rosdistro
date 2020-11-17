@@ -889,6 +889,10 @@ repositories:
       version: eloquent
     status: maintained
   googletest:
+    doc:
+      type: git
+      url: https://github.com/ament/googletest.git
+      version: eloquent
     release:
       packages:
       - gmock_vendor
