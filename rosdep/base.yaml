@@ -1214,6 +1214,9 @@ glut:
   openembedded: [freeglut@meta-oe]
   rhel: [freeglut-devel]
   ubuntu: [freeglut3-dev]
+gnat:
+  debian: [gnat]
+  ubuntu: [gnat]
 gnuplot:
   arch: [gnuplot]
   debian: [gnuplot]
@@ -1274,6 +1277,9 @@ gphoto2:
   fedora: [gphoto2]
   gentoo: [media-gfx/gphoto2]
   ubuntu: [gphoto2]
+gprbuild:
+  debian: [gprbuild]
+  ubuntu: [gprbuild]
 gpsd:
   debian: [gpsd]
   fedora: [gpsd]
@@ -2253,8 +2259,7 @@ libceres-dev:
   fedora: [ceres-solver-devel]
   gentoo: ['sci-libs/ceres-solver[sparse,lapack]']
   openembedded: [ceres-solver@meta-oe]
-  rhel:
-    '7': [ceres-solver-devel]
+  rhel: [ceres-solver-devel]
   ubuntu: [libceres-dev]
 libcgroup-dev:
   debian: [libcgroup-dev]
