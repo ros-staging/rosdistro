@@ -480,7 +480,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/carla-simulator/ros-carla-msgs-release.git
-      version: 1.2.0-1
+      version: 1.3.0-1
     source:
       type: git
       url: https://github.com/carla-simulator/ros-carla-msgs.git
@@ -1376,6 +1376,12 @@ repositories:
       url: https://github.com/pal-robotics/ddynamic_reconfigure_python.git
       version: master
     status: maintained
+  depthimage_to_laserscan:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/depthimage_to_laserscan-release.git
+      version: 1.0.8-1
   diagnostics:
     doc:
       type: git
@@ -1412,6 +1418,24 @@ repositories:
       url: https://github.com/UbiquityRobotics-release/dnn_detect-release.git
       version: 0.1.0-1
     status: maintained
+  driver_common:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/driver_common.git
+      version: indigo-devel
+    release:
+      packages:
+      - driver_base
+      - driver_common
+      - timestamp_tools
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/driver_common-release.git
+      version: 1.6.9-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/driver_common.git
+      version: indigo-devel
   dual_quaternions:
     release:
       tags:
@@ -1991,7 +2015,7 @@ repositories:
     doc:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
-      version: master
+      version: melodic_and_noetic
     release:
       packages:
       - fmi_adapter
@@ -1999,11 +2023,11 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/boschresearch/fmi_adapter-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/boschresearch/fmi_adapter.git
-      version: master
+      version: melodic_and_noetic
     status: maintained
   four_wheel_steering_msgs:
     doc:
@@ -2544,7 +2568,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/flynneva/hfl_driver-release.git
-      version: 0.0.20-1
+      version: 0.1.0-1
     source:
       type: git
       url: https://github.com/continental/hfl_driver.git
@@ -3791,7 +3815,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/mocap_optitrack-release.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://github.com/ros-drivers/mocap_optitrack.git
@@ -4998,6 +5022,22 @@ repositories:
       url: https://github.com/pr2/pr2_power_drivers.git
       version: kinetic-devel
     status: unmaintained
+  prosilica_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/prosilica_driver.git
+      version: noetic-devel
+    release:
+      packages:
+      - prosilica_camera
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/prosilica_driver-release.git
+      version: 1.9.5-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/prosilica_driver.git
+      version: noetic-devel
   prosilica_gige_sdk:
     doc:
       type: git
@@ -5021,7 +5061,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/PilzDE/psen_scan_v2-release.git
-      version: 0.1.5-1
+      version: 0.1.6-1
     source:
       type: git
       url: https://github.com/PilzDE/psen_scan_v2.git
@@ -7936,6 +7976,21 @@ repositories:
       url: https://github.com/ros-perception/vision_opencv.git
       version: noetic
     status: maintained
+  visp:
+    doc:
+      type: git
+      url: https://github.com/lagadic/visp.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/lagadic/visp-release.git
+      version: 3.4.0-5
+    source:
+      type: git
+      url: https://github.com/lagadic/visp.git
+      version: master
+    status: maintained
   visualization_tutorials:
     doc:
       type: git
@@ -8067,6 +8122,38 @@ repositories:
       url: https://github.com/cyberbotics/webots_ros.git
       version: master
     status: maintained
+  wge100_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/wge100_driver.git
+      version: noetic-devel
+    release:
+      packages:
+      - wge100_camera
+      - wge100_camera_firmware
+      - wge100_driver
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/wge100_driver-release.git
+      version: 1.8.5-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/wge100_driver.git
+      version: noetic-devel
+  willow_maps:
+    doc:
+      type: git
+      url: https://github.com/pr2/willow_maps.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-gbp/willow_maps-release.git
+      version: 1.0.3-1
+    source:
+      type: git
+      url: https://github.com/pr2/willow_maps.git
+      version: kinetic-devel
   wireless:
     doc:
       type: git
