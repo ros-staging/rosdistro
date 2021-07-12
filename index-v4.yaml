@@ -22,7 +22,7 @@ distributions:
     distribution_type: ros2
     python_version: 3
   dashing:
-    distribution: [dashing/addon.yaml]
+    distribution:
       - dashing/distribution.yaml
       - dashing/addon.yaml
     distribution_cache: http://repo.ros2.org/rosdistro_cache/dashing-cache.yaml.gz
