@@ -5,6 +5,16 @@
 release_platforms:
   ubuntu:
   - bionic
-repositories: []
+repositories:
+  canary_template:
+    release:
+      tags:
+        release: release/dashing/{package}/{version}
+      url: https://github.com/nuclearsandwich/canary_template-release.git
+      version: 0.6.4-1
+    source:
+      type: git
+      url: https://github.com/nuclearsandwich/canary-template
+      version: latest
 type: distribution
 version: 2
