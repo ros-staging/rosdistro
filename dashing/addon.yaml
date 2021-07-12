@@ -16,5 +16,7 @@ repositories:
       type: git
       url: https://github.com/nuclearsandwich/canary-template
       version: latest
+tags:
+  - addon
 type: distribution
 version: 2
