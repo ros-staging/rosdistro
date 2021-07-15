@@ -24,7 +24,6 @@ distributions:
   dashing:
     distribution:
       - dashing/distribution.yaml
-      - dashing/addon.yaml
     distribution_cache: http://repo.test.ros2.org/rosdistro_cache/dashing-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
@@ -95,5 +94,12 @@ distributions:
     distribution_status: rolling
     distribution_type: ros2
     python_version: 3
+  addon:
+    distribution: [dashing/addon.yaml]
+    distribution_cache: http://repo.test.ros2.org/rosdistro_cache/dashing-cache.yaml.gz
+    distribution_status: active
+    distribution_type: ros2
+    python_version: 3
+    upstream_distribution: dashing
 type: index
 version: 4
