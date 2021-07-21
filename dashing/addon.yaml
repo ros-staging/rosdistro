@@ -9,7 +9,7 @@ repositories:
   canary_template:
     release:
       tags:
-        release: release/dashing/{package}/{version}
+        release: release/addon/{package}/{version}
       url: https://github.com/nuclearsandwich/canary_template-release.git
       version: 0.6.4-1
     source:
@@ -17,6 +17,6 @@ repositories:
       url: https://github.com/nuclearsandwich/canary-template
       version: latest
 tags:
-  - addon
+- addon
 type: distribution
 version: 2
