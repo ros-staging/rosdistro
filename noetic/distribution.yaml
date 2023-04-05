@@ -1497,6 +1497,21 @@ repositories:
       url: https://github.com/rt-net/crane_x7_ros.git
       version: master
     status: maintained
+  cras_msgs:
+    doc:
+      type: git
+      url: https://github.com/ctu-vras/cras_msgs.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.fel.cvut.cz/cras/ros-release/cras_msgs
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ctu-vras/cras_msgs.git
+      version: master
+    status: developed
   cras_ros_utils:
     doc:
       type: git
@@ -1756,7 +1771,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/luxonis/depthai-core-release.git
-      version: 2.20.2-2
+      version: 2.21.0-1
     source:
       test_pull_requests: true
       type: git
@@ -2780,7 +2795,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/foxglove/ros_foxglove_bridge-release.git
-      version: 0.5.1-1
+      version: 0.5.3-1
     source:
       type: git
       url: https://github.com/foxglove/ros-foxglove-bridge.git
@@ -3056,7 +3071,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/geometric_shapes-release.git
-      version: 0.7.3-1
+      version: 0.7.4-1
     source:
       type: git
       url: https://github.com/ros-planning/geometric_shapes.git
@@ -3273,7 +3288,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/suurjaak/grepros-release.git
-      version: 0.5.0-1
+      version: 0.6.0-2
     source:
       type: git
       url: https://github.com/suurjaak/grepros.git
@@ -4815,7 +4830,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/locator_ros_bridge-release.git
-      version: 1.0.8-1
+      version: 1.0.9-3
     source:
       type: git
       url: https://github.com/boschglobal/locator_ros_bridge.git
@@ -5288,7 +5303,7 @@ repositories:
   mir_robot:
     doc:
       type: git
-      url: https://github.com/dfki-ric/mir_robot.git
+      url: https://github.com/DFKI-NI/mir_robot.git
       version: noetic
     release:
       packages:
@@ -5308,7 +5323,7 @@ repositories:
     source:
       test_pull_requests: true
       type: git
-      url: https://github.com/dfki-ric/mir_robot.git
+      url: https://github.com/DFKI-NI/mir_robot.git
       version: noetic
     status: developed
   mitch_v2_driver:
@@ -5748,7 +5763,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/mrpt_navigation-release.git
-      version: 1.0.3-1
+      version: 1.0.4-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/mrpt_navigation.git
@@ -7175,7 +7190,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/mrpt-ros-pkg-release/pose_cov_ops-release.git
-      version: 0.3.8-1
+      version: 0.3.9-1
     source:
       type: git
       url: https://github.com/mrpt-ros-pkg/pose_cov_ops.git
@@ -8225,7 +8240,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_control-release.git
-      version: 0.1.17-1
+      version: 0.1.18-1
     source:
       type: git
       url: https://github.com/rm-controls/rm_control.git
@@ -8252,7 +8267,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/rm-controls/rm_controllers-release.git
-      version: 0.1.7-1
+      version: 0.1.10-1
     source:
       type: git
       url: https://github.com/rm-controls/rm_controllers.git
@@ -9199,7 +9214,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/roslisp_common-release.git
-      version: 0.2.14-1
+      version: 0.2.15-1
     source:
       type: git
       url: https://github.com/ros/roslisp_common.git
@@ -10003,7 +10018,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/rviz-release.git
-      version: 1.14.19-1
+      version: 1.14.20-1
     source:
       test_pull_requests: true
       type: git
@@ -10187,22 +10202,22 @@ repositories:
   schunk_svh_library:
     doc:
       type: git
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_library.git
       version: main
     release:
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library-release.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_library-release.git
       version: 1.0.1-4
     source:
       type: git
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_library.git
       version: main
     status: developed
   schunk_svh_ros_driver:
     doc:
       type: git
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_ros_driver.git
       version: main
     release:
       packages:
@@ -10213,11 +10228,11 @@ repositories:
       - schunk_svh_simulation
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver-release.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_ros_driver-release.git
       version: 0.1.2-1
     source:
       type: git
-      url: https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git
+      url: https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_ros_driver.git
       version: main
     status: developed
   sciurus17:
@@ -10363,6 +10378,21 @@ repositories:
       url: https://github.com/mikeferguson/simple_grasping.git
       version: ros1
     status: maintained
+  skyway:
+    doc:
+      type: git
+      url: https://github.com/ntt-t3/skyway_for_ros.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ntt-t3/skyway_for_ros-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/ntt-t3/skyway_for_ros.git
+      version: main
+    status: developed
   slam_gmapping:
     doc:
       type: git
@@ -11525,7 +11555,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-gbp/usb_cam-release.git
-      version: 0.3.6-1
+      version: 0.3.7-1
     source:
       type: git
       url: https://github.com/ros-drivers/usb_cam.git
@@ -12084,7 +12114,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/twdragon/witmotion_ros-release.git
-      version: 1.2.27-1
+      version: 1.2.28-1
     source:
       test_pull_requests: true
       type: git
