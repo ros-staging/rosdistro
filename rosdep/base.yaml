@@ -3031,11 +3031,13 @@ libcereal-dev:
   ubuntu: [libcereal-dev]
 libceres-dev:
   debian: [libceres-dev]
-  fedora: [ceres-solver-devel]
+  fedora: [ceres-solver-devel, suitesparse-devel, flexiblas-devel]
   gentoo: ['sci-libs/ceres-solver[sparse,lapack]']
   nixos: [ceres-solver]
   openembedded: [ceres-solver@meta-oe]
-  rhel: [ceres-solver-devel]
+  rhel:
+    '*': [ceres-solver-devel, suitesparse-devel, flexiblas-devel]
+    '8': [ceres-solver-devel]
   ubuntu: [libceres-dev]
 libcgroup-dev:
   debian: [libcgroup-dev]
@@ -3049,6 +3051,7 @@ libclang-dev:
   debian: [libclang-dev]
   fedora: [clang-devel]
   nixos: [clang]
+  rhel: [clang-devel]
   ubuntu: [libclang-dev]
 libcoin60-dev:
   arch: [coin]
@@ -5890,13 +5893,13 @@ libturbojpeg:
   debian:
     '*': [libturbojpeg0-dev]
     jessie: [libturbojpeg1-dev]
-  fedora: [turbojpeg-devel]
+  fedora: [libjpeg-turbo-devel, turbojpeg-devel]
   freebsd: [libjpeg-turbo]
   gentoo: [media-libs/libjpeg-turbo]
   nixos: [libjpeg_turbo]
   openembedded: [libjpeg-turbo@openembedded-core]
   opensuse: [libturbojpeg0, libjpeg8-devel]
-  rhel: [turbojpeg-devel]
+  rhel: [libjpeg-turbo-devel, turbojpeg-devel]
   ubuntu:
     '*': [libturbojpeg0-dev]
     precise: [libturbojpeg, libjpeg-turbo8-dev]
