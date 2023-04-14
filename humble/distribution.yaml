@@ -51,6 +51,15 @@ repositories:
       version: ros2
     status: maintained
   actuator_msgs:
+    doc:
+      type: git
+      url: https://github.com/rudislabs/actuator_msgs.git
+      version: 0.0.1
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros2-gbp/actuator_msgs-release.git
+      version: 0.0.1-1
     source:
       type: git
       url: https://github.com/rudislabs/actuator_msgs.git
@@ -3595,6 +3604,25 @@ repositories:
     source:
       type: git
       url: https://github.com/pal-robotics/pal_gripper.git
+      version: humble-devel
+    status: developed
+  pal_navigation_cfg_public:
+    doc:
+      type: git
+      url: https://github.com/pal-robotics/pal_navigation_cfg_public.git
+      version: humble-devel
+    release:
+      packages:
+      - pal_navigation_cfg
+      - pal_navigation_cfg_bringup
+      - pal_navigation_cfg_params
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/pal-gbp/pal_navigation_cfg_public-release.git
+      version: 3.0.1-1
+    source:
+      type: git
+      url: https://github.com/pal-robotics/pal_navigation_cfg_public.git
       version: humble-devel
     status: developed
   pal_statistics:
