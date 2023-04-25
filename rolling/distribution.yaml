@@ -129,7 +129,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/ament_cmake-release.git
-      version: null #2.0.2-1
+      version: 2.0.2-1
     source:
       test_pull_requests: true
       type: git
@@ -163,7 +163,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/ament_cmake_ros-release.git
-      version: null #0.11.2-3
+      version: 0.11.2-3
     source:
       test_pull_requests: true
       type: git
@@ -197,7 +197,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/ament_index-release.git
-      version: null #1.5.2-3
+      version: 1.5.2-3
     source:
       test_pull_requests: true
       type: git
@@ -245,7 +245,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/ament_lint-release.git
-      version: null #0.14.1-1
+      version: 0.14.1-1
     source:
       test_pull_requests: true
       type: git
@@ -272,7 +272,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/ament_package-release.git
-      version: null #0.15.3-1
+      version: 0.15.3-1
     source:
       test_pull_requests: true
       type: git
@@ -1550,7 +1550,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/google_benchmark_vendor-release.git
-      version: null #0.3.0-3
+      version: 0.3.0-3
     source:
       test_pull_requests: true
       type: git
@@ -1565,7 +1565,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/googletest-release.git
-      version: null #1.10.9005-1
+      version: 1.10.9005-1
     source:
       type: git
       url: https://github.com/ament/googletest.git
@@ -2169,7 +2169,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/launch-release.git
-      version: null #2.0.1-1
+      version: 2.0.1-1
     source:
       test_pull_requests: true
       type: git
@@ -2511,7 +2511,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/mimick_vendor-release.git
-      version: null #0.3.2-4
+      version: 0.3.2-4
     source:
       type: git
       url: https://github.com/ros2/mimick_vendor.git
@@ -3127,7 +3127,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/osrf_pycommon-release.git
-      version: null #2.1.2-2
+      version: 2.1.2-2
     source:
       type: git
       url: https://github.com/osrf/osrf_pycommon.git
@@ -3142,7 +3142,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/osrf_testing_tools_cpp-release.git
-      version: null #1.5.3-1
+      version: 1.5.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3231,7 +3231,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/performance_test_fixture-release.git
-      version: null #0.1.1-1
+      version: 0.1.1-1
     source:
       test_pull_requests: true
       type: git
@@ -3554,7 +3554,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/python_cmake_module-release.git
-      version: null #0.10.2-2
+      version: 0.10.2-2
     source:
       type: git
       url: https://github.com/ros2/python_cmake_module.git
@@ -3962,7 +3962,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/rcutils-release.git
-      version: null #6.2.1-1
+      version: 6.2.1-1
     source:
       test_pull_requests: true
       type: git
@@ -4765,7 +4765,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/ros_workspace-release.git
-      version: null #1.0.3-3
+      version: 1.0.3-3
     source:
       type: git
       url: https://github.com/ros2/ros_workspace.git
@@ -6372,7 +6372,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/uncrustify_vendor-release.git
-      version: null #2.1.2-2
+      version: 2.1.2-2
     source:
       type: git
       url: https://github.com/ament/uncrustify_vendor.git
