@@ -4894,7 +4894,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/rosidl_core-release.git
-      version: null #0.1.1-2
+      version: 0.1.1-2
     source:
       test_pull_requests: true
       type: git
@@ -4912,7 +4912,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/rosidl_dds-release.git
-      version: null #0.10.1-2
+      version: 0.10.1-2
     source:
       test_pull_requests: true
       type: git
