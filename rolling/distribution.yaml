@@ -2278,7 +2278,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/libyaml_vendor-release.git
-      version: null #1.5.0-2
+      version: 1.5.0-2
     source:
       test_pull_requests: true
       type: git
@@ -3538,7 +3538,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/pybind11_vendor-release.git
-      version: null #3.0.3-1
+      version: 3.0.3-1
     source:
       test_pull_requests: true
       type: git
@@ -3826,7 +3826,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/rcl_logging-release.git
-      version: null #2.5.1-1
+      version: 2.5.1-1
     source:
       test_pull_requests: true
       type: git
@@ -5016,7 +5016,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/rosidl_typesupport-release.git
-      version: null #3.0.0-1
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5036,7 +5036,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/rosidl_typesupport_fastrtps-release.git
-      version: null #3.0.0-1
+      version: 3.0.0-1
     source:
       test_pull_requests: true
       type: git
@@ -5795,7 +5795,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/ros2-split-gbp/spdlog_vendor-release.git
-      version: null #1.4.4-1
+      version: 1.4.4-1
     source:
       test_pull_requests: true
       type: git
