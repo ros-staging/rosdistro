@@ -5,6 +5,8 @@
 release_platforms:
   debian:
   - bullseye
+  fedora:
+  - '38'
   rhel:
   - '9'
   ubuntu:
