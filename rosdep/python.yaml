@@ -129,6 +129,9 @@ carla-pip:
   fedora:
     pip:
       packages: [carla]
+  osx:
+    pip:
+      packages: [carla]
   ubuntu:
     pip:
       packages: [carla]
@@ -215,6 +218,19 @@ gym-pip:
   ubuntu:
     pip:
       packages: [gym]
+gymnasium-pip:
+  debian:
+    pip:
+      packages: [gymnasium]
+  fedora:
+    pip:
+      packages: [gymnasium]
+  osx:
+    pip:
+      packages: [gymnasium]
+  ubuntu:
+    pip:
+      packages: [gymnasium]
 imgaug-pip:
   debian:
     pip:
@@ -608,14 +624,13 @@ python-astor-pip:
     pip:
       packages: [astor]
 python-attrs:
-  debian: [python-attr]
+  debian:
+    buster: [python-attr]
   gentoo: [dev-python/attrs]
   nixos: [pythonPackages.attrs]
   ubuntu:
-    '*':
-      packages: [python-attr]
-      pip:
-        packages: [attrs]
+    bionic: [python-attr]
+    focal: [python-attr]
 python-attrs-pip:
   debian:
     pip:
@@ -1310,6 +1325,9 @@ python-dlib:
   fedora:
     pip: [dlib]
   nixos: [pythonPackages.dlib]
+  osx:
+    pip:
+      packages: [dlib]
   ubuntu:
     pip: [dlib]
 python-docker:
@@ -3624,6 +3642,16 @@ python-rpi.gpio:
         packages: [RPi.GPIO]
   ubuntu:
     bionic: [python-rpi.gpio]
+python-rpi.gpio-pip:
+  debian:
+    pip:
+      packages: [RPi.GPIO]
+  fedora:
+    pip:
+      packages: [RPi.GPIO]
+  ubuntu:
+    pip:
+      packages: [RPi.GPIO]
 python-rrdtool:
   debian: [python-rrdtool]
   gentoo: [net-analyzer/rrdtool]
@@ -4904,6 +4932,18 @@ python3-bcrypt:
   opensuse: [python3-bcrypt]
   rhel: ['python%{python3_pkgversion}-bcrypt']
   ubuntu: [python3-bcrypt]
+python3-bidict:
+  arch: [python-bidict]
+  debian:
+    '*': [python3-bidict]
+    buster: null
+  fedora: [python3-bidict]
+  freebsd: [py39-bidict]
+  nixos: [python310Packages.bidict]
+  openembedded: [python3-bidict@meta-python]
+  ubuntu:
+    '*': [python3-bidict]
+    bionic: null
 python3-bitarray:
   debian: [python3-bitarray]
   fedora: [python3-bitarray]
@@ -5622,6 +5662,10 @@ python3-fann2:
   debian: [python3-fann2]
   opensuse: [python3-fann2]
   ubuntu: [python3-fann2]
+python3-fanucpy-pip:
+  '*':
+    pip:
+      packages: [fanucpy]
 python3-fastapi:
   arch: [python-fastapi]
   debian:
@@ -5873,6 +5917,30 @@ python3-flask-sqlalchemy:
     '*': [python3-flask-sqlalchemy]
     '7': null
   ubuntu: [python3-flask-sqlalchemy]
+python3-flatbuffers:
+  debian:
+    '*': [python3-flatbuffers]
+    buster:
+      pip:
+        packages: [flatbuffers]
+  fedora:
+    pip:
+      packages: [flatbuffers]
+  opensuse: [python3-flatbuffers]
+  osx:
+    pip:
+      packages: [flatbuffers]
+  rhel:
+    '*': [python3-flatbuffers]
+    '8': null
+  ubuntu:
+    '*': [python3-flatbuffers]
+    bionic:
+      pip:
+        packages: [flatbuffers]
+    focal:
+      pip:
+        packages: [flatbuffers]
 python3-fonttools:
   arch: [python-fonttools]
   debian: [python3-fonttools]
@@ -5888,6 +5956,16 @@ python3-formant-pip:
   ubuntu:
     pip:
       packages: [formant]
+python3-fpdf2-pip:
+  debian:
+    pip:
+      packages: [fpdf2]
+  fedora:
+    pip:
+      packages: [fpdf2]
+  ubuntu:
+    pip:
+      packages: [fpdf2]
 python3-ftdi1:
   arch: [libftdi]
   debian: [python3-ftdi1]
@@ -6084,6 +6162,17 @@ python3-graphviz:
   nixos: [python39Packages.graphviz]
   opensuse: [python3-graphviz]
   ubuntu: [python3-graphviz]
+python3-grip:
+  debian:
+    '*': [grip]
+    bookworm: null
+    bullseye: null
+    buster: [grip]
+  fedora:
+    pip:
+      packages: [grip]
+  gentoo: [app-text/grip]
+  ubuntu: [grip]
 python3-grpc-tools:
   debian:
     '*': [python3-grpc-tools]
@@ -6226,6 +6315,12 @@ python3-inflection-pip:
   ubuntu:
     pip:
       packages: [inflection]
+python3-influxdb:
+  debian: [python3-influxdb]
+  fedora: [python3-influxdb]
+  opensuse: [python3-influxdb]
+  rhel: [python3-influxdb]
+  ubuntu: [python3-influxdb]
 python3-influxdb-client-pip:
   debian:
     pip:
@@ -6572,6 +6667,9 @@ python3-mock:
   nixos: [python3Packages.mock]
   openembedded: [python3-mock@meta-ros-common]
   opensuse: [python3-mock]
+  osx:
+    pip:
+      packages: [mock]
   rhel: ['python%{python3_pkgversion}-mock']
   ubuntu: [python3-mock]
 python3-more-itertools:
@@ -6651,6 +6749,12 @@ python3-mypy:
     '7': null
     '8': null
   ubuntu: [python3-mypy]
+python3-natsort:
+  debian: [python3-natsort]
+  fedora: [python3-natsort]
+  opensuse: [python3-natsort]
+  rhel: [python3-natsort]
+  ubuntu: [python3-natsort]
 python3-nclib-pip:
   arch:
     pip:
@@ -7301,6 +7405,9 @@ python3-pydot:
   nixos: [python3Packages.pydot]
   openembedded: [python3-pydot@meta-ros-common]
   opensuse: [python3-pydot]
+  osx:
+    pip:
+      packages: [pydot]
   rhel:
     '*': ['python%{python3_pkgversion}-pydot']
     '7': null
@@ -8548,6 +8655,29 @@ python3-toml:
   gentoo: [dev-python/toml]
   nixos: [python3Packages.toml]
   ubuntu: [python3-toml]
+python3-torch:
+  arch: [python-pytorch]
+  debian: [python3-torch]
+  gentoo: [pytorch]
+  nixos: [python3Packages.torch]
+  opensuse: [python3-torch]
+  osx: [pytorch]
+  ubuntu:
+    '*': [python3-torch]
+    bionic: null
+    focal: null
+python3-torchvision:
+  arch: [python-torchvision]
+  debian: [python3-torchvision]
+  nixos: [python3Packages.torchvision]
+  opensuse:
+    '*': [python3-torchvision]
+    '15.2': null
+  osx: [torchvision]
+  ubuntu:
+    '*': [python3-torchvision]
+    bionic: null
+    focal: null
 python3-tornado:
   arch: [python-tornado]
   debian: [python3-tornado]
@@ -8916,6 +9046,12 @@ python3-xdot:
   gentoo: [media-gfx/xdot]
   nixos: [xdot]
   ubuntu: [xdot]
+python3-xlsxwriter:
+  debian: [python3-xlsxwriter]
+  fedora: [python3-xlsxwriter]
+  opensuse: [python3-XlsxWriter]
+  rhel: [python3-xlsxwriter]
+  ubuntu: [python3-xlsxwriter]
 python3-xmlschema:
   debian:
     '*': [python3-xmlschema]

@@ -209,6 +209,18 @@ autoconf:
   opensuse: [autoconf]
   rhel: [autoconf]
   ubuntu: [autoconf]
+autoconf-archive:
+  alpine: [autoconf-archive]
+  arch: [autoconf-archive]
+  debian: [autoconf-archive]
+  fedora: [autoconf-archive]
+  gentoo: [sys-devel/autoconf-archive]
+  macports: [autoconf-archive]
+  nixos: [autoconf-archive]
+  openembedded: [autoconf-archive@openembedded-core]
+  opensuse: [autoconf-archive]
+  rhel: [autoconf-archive]
+  ubuntu: [autoconf-archive]
 automake:
   arch: [automake]
   debian: [automake]
@@ -280,6 +292,16 @@ babeltrace:
   gentoo: [dev-util/babeltrace]
   nixos: [babeltrace]
   ubuntu: [babeltrace]
+bandit:
+  arch: [bandit]
+  debian: [bandit]
+  fedora: [bandit]
+  gentoo: [dev-python/bandit]
+  opensuse: [python3-bandit]
+  osx:
+    homebrew:
+      packages: [bandit]
+  ubuntu: [bandit]
 bazaar:
   arch: [bzr]
   debian: [bzr]
@@ -473,6 +495,17 @@ checkinstall:
   debian: [checkinstall]
   nixos: [checkinstall]
   ubuntu: [checkinstall]
+chromedriver:
+  alpine: [chromium-chromedriver]
+  arch: [chromium]
+  debian: [chromium-driver]
+  fedora: [chromedriver]
+  gentoo: [www-apps/chromedriver-bin]
+  macports: [chromedriver]
+  nixos: [chromedriver]
+  opensuse: [chromedriver]
+  rhel: [chromedriver]
+  ubuntu: [chromium-chromedriver]
 chromium-browser:
   debian: [chromium]
   fedora: [chromium]
@@ -911,6 +944,19 @@ exfat-utils:
   gentoo: [sys-fs/exfat-utils]
   nixos: [exfat]
   ubuntu: [exfat-utils]
+exiv2:
+  alpine: [exiv2]
+  arch: [exiv2]
+  debian: [exiv2]
+  fedora: [exiv2]
+  gentoo: [exiv2]
+  nixos: [exiv2]
+  opensuse: [exiv2]
+  osx:
+    homebrew:
+      packages: [exiv2]
+  rhel: [exiv2]
+  ubuntu: [exiv2]
 f2c:
   arch: [f2c]
   debian: [f2c, libf2c2, libf2c2-dev]
@@ -1034,6 +1080,14 @@ fluid:
   nixos: [fltk]
   opensuse: [fltk-devel]
   ubuntu: [fluid]
+fluidsynth:
+  alpine: [fluidsynth]
+  arch: [fluidsynth]
+  debian: [fluidsynth]
+  fedora: [fluidsynth]
+  opensuse: [fluidsynth]
+  rhel: [fluidsynth]
+  ubuntu: [fluidsynth]
 fmt:
   arch: [fmt]
   debian: [libfmt-dev]
@@ -1041,6 +1095,9 @@ fmt:
   gentoo: [dev-libs/libfmt]
   nixos: [fmt]
   openembedded: [fmt@meta-oe]
+  osx:
+    homebrew:
+      packages: [fmt]
   rhel: [fmt-devel]
   ubuntu: [libfmt-dev]
 fonts-noto:
@@ -1844,6 +1901,7 @@ ignition-citadel:
     focal: [ignition-citadel]
 ignition-cmake2:
   debian:
+    bookworm: [libignition-cmake-dev]
     buster: [libignition-cmake2-dev]
   nixos: [ignition.cmake2]
   ubuntu:
@@ -1950,6 +2008,7 @@ ignition-launch5:
     jammy: [libignition-launch5-dev]
 ignition-math6:
   debian:
+    bookworm: [libignition-math-dev]
     buster: [libignition-math6-dev]
   nixos: [ignition.math6]
   ubuntu:
@@ -2323,6 +2382,9 @@ libatomic:
   gentoo: [sys-devel/gcc]
   nixos: []
   openembedded: [gcc-runtime@openembedded-core]
+  osx:
+    homebrew:
+      packages: [libatomic_ops]
   rhel: [libatomic]
   ubuntu: [libatomic1]
 libav:
@@ -2471,6 +2533,7 @@ libboost-coroutine-dev:
   ubuntu: [libboost-coroutine-dev]
 libboost-date-time:
   debian:
+    bookworm: [libboost-date-time1.81.0]
     bullseye: [libboost-date-time1.74.0]
     buster: [libboost-date-time1.67.0]
   fedora: [boost-date-time]
@@ -2503,6 +2566,7 @@ libboost-dev:
   ubuntu: [libboost-dev]
 libboost-filesystem:
   debian:
+    bookworm: [libboost-filesystem-dev]
     bullseye: [libboost-filesystem1.74.0]
     buster: [libboost-filesystem1.67.0]
   fedora: [boost-filesystem]
@@ -2602,6 +2666,7 @@ libboost-program-options-dev:
 libboost-python:
   alpine: [boost-python2]
   debian:
+    bookworm: [libboost-python1.81.0]
     bullseye: [libboost-python1.74.0]
     buster: [libboost-python1.67.0]
   fedora: [boost-python3]
@@ -2630,6 +2695,7 @@ libboost-python-dev:
   ubuntu: [libboost-python-dev]
 libboost-random:
   debian:
+    bookworm: [libboost-random1.81.0]
     bullseye: [libboost-random1.74.0]
     buster: [libboost-random1.67.0]
   fedora: [boost-random]
@@ -2722,6 +2788,7 @@ libboost-system-dev:
   ubuntu: [libboost-system-dev]
 libboost-thread:
   debian:
+    bookworm: [libboost-thread1.81.0]
     bullseye: [libboost-thread1.74.0]
     buster: [libboost-thread1.67.0]
   fedora: [boost-thread]
@@ -3017,6 +3084,9 @@ libdw-dev:
   nixos: [elfutils]
   openembedded: [elfutils@openembedded-core]
   opensuse: [libdw-devel]
+  osx:
+    homebrew:
+      packages: [elfutils]
   rhel: [elfutils-devel]
   ubuntu: [libdw-dev]
 libdxflib-dev:
@@ -3428,6 +3498,9 @@ libgmp:
   fedora: [gmp-devel]
   gentoo: [dev-libs/gmp]
   nixos: [gmp]
+  osx:
+    homebrew:
+      packages: [gpgme]
   ubuntu: [libgmp-dev]
 libgnutls28-dev:
   alpine: [gnutls-dev]
@@ -3492,6 +3565,24 @@ libgps:
   opensuse: [gpsd-devel]
   rhel: [gpsd-devel]
   ubuntu: [libgps-dev]
+libgrpc:
+  alpine: [grpc]
+  arch: [grpc]
+  debian: [libgrpc++-dev]
+  fedora: [grpc-cpp]
+  gentoo: [net-libs/grpc]
+  nixos: [grpc]
+  openembedded: [grpc@meta-networking]
+  opensuse: [grpc]
+  osx:
+    homebrew:
+      packages: [grpc]
+    macports:
+      packages: [grpc]
+  rhel:
+    '*': [grpc]
+    '8': null
+  ubuntu: [libgrpc++-dev]
 libgsl:
   arch: [gsl]
   debian:
@@ -4040,6 +4131,11 @@ libnanoflann-dev:
     '*': [libnanoflann-dev]
     bionic: null
     focal: null
+libnanopb-dev:
+  debian: [libnanopb-dev]
+  ubuntu:
+    '*': [libnanopb-dev]
+    bionic: null
 libncurses:
   arch: [ncurses]
   debian: [libncurses5]
@@ -4138,6 +4234,7 @@ libogg:
 libogre:
   arch: [ogre-1.9]
   debian:
+    bookworm: [libogre-1.12-dev]
     buster: [libogre-1.9.0v5]
     stretch: [libogre-1.9.0v5]
     wheezy: [libogre-dev]
@@ -4367,6 +4464,36 @@ libosmesa6-dev:
   fedora: [mesa-libOSMesa-devel]
   gentoo: ['media-libs/mesa[osmesa]']
   ubuntu: [libosmesa6-dev]
+libpaho-mqtt:
+  alpine: [paho-mqtt-c]
+  debian: [libpaho-mqtt1.3]
+  fedora: [paho-c]
+  nixos: [paho-mqtt-c]
+  opensuse: [libpaho-mqtt1]
+  ubuntu:
+    '*': [libpaho-mqtt1.3]
+    bionic: null
+    focal: null
+libpaho-mqtt-dev:
+  alpine: [paho-mqtt-c-dev]
+  debian: [libpaho-mqtt-dev]
+  fedora: [paho-c-devel]
+  opensuse: [libpaho-mqtt-devel]
+  ubuntu:
+    '*': [libpaho-mqtt-dev]
+    bionic: null
+    focal: null
+libpaho-mqttpp:
+  nixos: [paho-mqtt-cpp]
+  ubuntu:
+    '*': [libpaho-mqttpp3-1]
+    bionic: null
+    focal: null
+libpaho-mqttpp-dev:
+  ubuntu:
+    '*': [libpaho-mqttpp-dev]
+    bionic: null
+    focal: null
 libpcap:
   arch:
     pacman:
@@ -4875,6 +5002,8 @@ libpulse-dev:
   ubuntu: [libpulse-dev]
 libqcustomplot-dev:
   debian:
+    bookworm: [libqcustomplot-dev]
+    bullseye: [libqcustomplot-dev]
     buster: [libqcustomplot-dev]
     stretch: [libqcustomplot-dev]
   fedora: [qcustomplot-devel]
@@ -5124,7 +5253,15 @@ libqt5-sql:
   gentoo: ['dev-qt/qtsql:5']
   nixos: [qt5.qtbase]
   ubuntu: [libqt5sql5]
+libqt5-svg:
+  arch: [qt5-svg]
+  debian: [libqt5svg5]
+  fedora: [qt5-qtsvg]
+  opensuse: [libqt5-qtsvg]
+  rhel: [qt5-qtsvg]
+  ubuntu: [libqt5svg5]
 libqt5-svg-dev:
+  arch: [qt5-svg]
   debian: [libqt5svg5-dev]
   fedora: [qt5-qtsvg-devel]
   freebsd: [qt5-svg]
@@ -6190,6 +6327,30 @@ lz4:
   rhel: [lz4-devel]
   slackware: [lz4]
   ubuntu: [liblz4-dev]
+m2r:
+  alpine:
+    pip:
+      packages: [m2r]
+  arch:
+    pip:
+      packages: [m2r]
+  debian:
+    '*': [m2r]
+    buster:
+      pip:
+        packages: [m2r]
+  fedora: [python3-m2r]
+  gentoo:
+    pip:
+      packages: [m2r]
+  nixos: [m2r]
+  opensuse: [python3-m2r]
+  osx:
+    pip:
+      packages: [m2r]
+  ubuntu:
+    '*': [m2r]
+    bionic: null
 m4:
   arch: [m4]
   debian: [m4]
@@ -7075,6 +7236,9 @@ range-v3:
     stretch: null
   fedora: [range-v3-devel]
   gentoo: [dev-cpp/range-v3]
+  osx:
+    homebrew:
+      packages: [range-v3]
   rhel:
     '*': [range-v3-devel]
     '7': null
@@ -7127,6 +7291,14 @@ rsyslog:
   debian: [rsyslog]
   fedora: [rsyslog]
   ubuntu: [rsyslog]
+rt-tests:
+  arch: [rt-tests]
+  debian: [rt-tests]
+  fedora: [rt-tests]
+  gentoo: [dev-util/rt-tests]
+  nixos: [rt-tests]
+  opensuse: [rt-tests]
+  ubuntu: [rt-tests]
 rti-connext-dds-5.3.1:
   nixos: []
   ubuntu:
@@ -7275,6 +7447,16 @@ sdl2-ttf:
   gentoo: [media-libs/sdl2-ttf]
   nixos: [SDL2_ttf]
   ubuntu: [libsdl2-ttf-dev]
+semgrep:
+  debian:
+    pip:
+      packages: [semgrep]
+  osx:
+    homebrew:
+      packages: [semgrep]
+  ubuntu:
+    pip:
+      packages: [semgrep]
 setserial:
   debian: [setserial]
   fedora: [setserial]
@@ -7435,6 +7617,18 @@ stress:
   gentoo: [app-benchmarks/stress]
   nixos: [stress]
   ubuntu: [stress]
+stress-ng:
+  alpine: [stress-ng]
+  debian: [stress-ng]
+  fedora: [stress-ng]
+  gentoo: [app-benchmarks/stress-ng]
+  nixos: [stress-ng]
+  opensuse: [stress-ng]
+  osx:
+    homebrew:
+      packages: [stress-ng]
+  rhel: [stress-ng]
+  ubuntu: [stress-ng]
 subversion:
   arch: [subversion]
   debian: [subversion]
@@ -7514,6 +7708,19 @@ swig:
   ubuntu: [swig]
 swig-wx:
   gentoo: [dev-lang/swig]
+sysbench:
+  alpine: [sysbench]
+  arch: [sysbench]
+  debian: [sysbench]
+  fedora: [sysbench]
+  gentoo: [app-benchmarks/sysbench]
+  nixos: [sysbench]
+  opensuse: [sysbench]
+  osx:
+    homebrew:
+      packages: [sysbench]
+  rhel: [sysbench]
+  ubuntu: [sysbench]
 sysstat:
   arch: [sysstat]
   debian: [sysstat]
