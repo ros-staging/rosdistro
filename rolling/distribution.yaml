@@ -1853,7 +1853,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ignition_cmake2_vendor-release.git
+      url: https://github.com/ros2-gbp/gz_cmake2_vendor-release.git
       version: 0.2.0-1
     source:
       test_pull_requests: true
@@ -1869,7 +1869,7 @@ repositories:
     release:
       tags:
         release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ignition_math6_vendor-release.git
+      url: https://github.com/ros2-gbp/gz_math6_vendor-release.git
       version: 0.2.0-1
     source:
       test_pull_requests: true
