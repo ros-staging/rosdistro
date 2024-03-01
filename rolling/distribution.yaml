@@ -512,17 +512,6 @@ repositories:
       url: https://github.com/ros2/eigen3_cmake_module.git
       version: master
     status: maintained
-  drake:
-    release:
-      tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/j-rivero/test_drake-release.git
-      version: 1.26.1
-    source:
-      type: git
-      url: https://github.com/j-rivero/ros-drake-vendor.git
-      version: jrivero/initial_code
-    status: maintained
   eigen_stl_containers:
     doc:
       type: git
