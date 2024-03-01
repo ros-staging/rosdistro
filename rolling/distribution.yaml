@@ -1151,12 +1151,12 @@ repositories:
       url: https://github.com/ros2/eigen3_cmake_module.git
       version: rolling
     status: maintained
-  drake_vendor:
+  drake:
     release:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/j-rivero/test_drake-release.git
-      version: 1.25.5-7
+      version: 1.26.1-1
     source:
       type: git
       url: https://github.com/j-rivero/ros-drake-vendor.git
