@@ -1156,7 +1156,7 @@ repositories:
       tags:
         release: release/rolling/{package}/{version}
       url: https://github.com/j-rivero/test_drake-release.git
-      version: 1.26.2-1
+      version: 1.26.2-2
     source:
       type: git
       url: https://github.com/j-rivero/ros-drake-vendor.git
