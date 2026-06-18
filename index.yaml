@@ -9,6 +9,9 @@ distributions:
   bouncy:
     distribution: [bouncy/distribution.yaml]
     distribution_cache: http://repo.ros2.org/rosdistro_cache/bouncy-cache.yaml.gz
+  cargotest:
+    distribution: [cargotest/distribution.yaml]
+    distribution_cache: cargotest/distribution-cache.yaml.gz
   crystal:
     distribution: [crystal/distribution.yaml]
     distribution_cache: http://repo.ros2.org/rosdistro_cache/crystal-cache.yaml.gz
