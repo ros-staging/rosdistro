@@ -13,8 +13,8 @@ repositories:
       packages:
       - ament_cmake_core
       tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ament_cmake-release.git
+        release: release/cargotest/{package}/{version}
+      url: https://github.com/ros-staging/ament_cmake-release.git
       version: 2.9.0-1
     source:
       type: git
@@ -24,8 +24,8 @@ repositories:
   ament_package:
     release:
       tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ament_package-release.git
+        release: release/cargotest/{package}/{version}
+      url: https://github.com/ros-staging/ament_package-release.git
       version: 0.19.0-1
     source:
       type: git
@@ -49,8 +49,8 @@ repositories:
   ros_workspace:
     release:
       tags:
-        release: release/rolling/{package}/{version}
-      url: https://github.com/ros2-gbp/ros_workspace-release.git
+        release: release/cargotest/{package}/{version}
+      url: https://github.com/ros-staging/ros_workspace-release.git
       version: 1.0.3-8
     source:
       type: git
